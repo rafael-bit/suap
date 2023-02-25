@@ -15,9 +15,8 @@ export default function Admin() {
 							<input type="text" />
 
 							<div className="submit">
-								<input type="submit" value="Entrar" href="/admin"/>
+								<input type="submit" value="Entrar"/>
 							</div>
-							<Link href="">Esqueci a senha</Link>
 						</form>
 					</Box>
 				</Card>
