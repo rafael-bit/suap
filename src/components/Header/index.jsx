@@ -6,13 +6,24 @@ export default function Header() {
 	return (
 		<Content>
 			<h1><Link href="#"><span>SUAP</span></Link></h1>
-
-				<nav>
-					<ul>
-						<li><Link href="">Notificações</Link></li>
-						<li><Link href=""><Image src="/profile.jpg" width="40" height="40" /></Link></li>
-					</ul>	
-				</nav>
+			<nav>
+				<ul>
+					<li><Link href="">Notificações</Link></li>
+					<li className="dropdown">
+						<Image src="/profile.jpg" width="40" height="40" />
+						<div className="drop">
+							<Link href="">Programas</Link>
+							<Link href="">Boletim</Link>
+							<Link href="">Avaliações</Link>
+							<Link href="">TCC</Link>
+							<Link href="">Histórico</Link>
+							<Link href="">FAQ</Link>
+							<Link href="">Seu Campus</Link>
+							<Link href="">Calendário</Link>
+						</div>
+					</li>
+  			</ul>
+			</nav>
 		</Content>
 	)
 }

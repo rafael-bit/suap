@@ -14,6 +14,9 @@ export const Container = styled.footer`
 
 	padding: 20px;
 
+  position: absolute;
+  bottom: 0;
+
 
 
 
@@ -71,4 +74,10 @@ label {
   transform: translateX(24px)
 }
 
+
+@media(max-width: 450px){
+  p{
+    display: none;
+  }
+}
 `;

@@ -21,7 +21,6 @@ export default function Login() {
 						</form>
 					</Box>
 				</Card>
-				<Link href="/admin" className="admin">Admin</Link>
 			</Container>
 		</main>
 	);

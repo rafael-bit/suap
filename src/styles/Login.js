@@ -5,20 +5,6 @@ export const Container = styled.div`
 
 	width: 100vw;
 	height: 100vh;
-
-	.admin{
-		background: var(--green);
-		color: var(--white);
-		text-decoration: none;
-
-		margin: 2rem;
-		padding: 1.5rem 3rem;
-		border-radius: 50px;
-	}
-
-	.admin:hover{
-		opacity: .9;
-	}
 `;
 
 export const Card = styled.div`

@@ -18,14 +18,18 @@ export const Content = styled.header`
 
 	nav{
 		display: flex;
-		line-height: 40px;
 		justify-content: flex-end;
 		width: 95vw;
 	}
 
 	ul{
 		display: flex;
+		align-items: center;
 		list-style: none;
+	}
+
+	li{
+		margin-right: 20px;
 	}
 
 	a{
@@ -55,6 +59,34 @@ export const Content = styled.header`
 	@media(max-width: 320px){
 		h1{
 			font-size: 1.5rem;
+		}
+	}
+
+	.dropdown{
+		position: relative;
+		display: inline-block;
+
+		:hover .drop{
+			display: block;
+		}
+	}
+
+	.drop{
+		display: none;
+		position: absolute;
+		top: 60px;
+		left: -105px;
+		background: var(--background);
+		min-width: 160px;
+
+		a{
+			color: var(--black);
+			padding: 10px 23px 10px 0px;
+			display: block;
+		}
+
+		a:hover{
+			color: var(--black);
 		}
 	}
 `;
