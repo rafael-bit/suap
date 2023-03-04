@@ -81,4 +81,17 @@ export const Box = styled.div`
 		text-decoration: underline;
 	}
 
+	@media(max-width: 1250px){
+
+		width: 70vw;
+		margin: 0;
+
+		h1{
+			font-size: 50px;
+		}
+
+		form{
+			margin: 8vw;
+		}
+	}
 `;
