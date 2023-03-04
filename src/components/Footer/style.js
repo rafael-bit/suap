@@ -15,7 +15,7 @@ export const Container = styled.footer`
 	padding: 20px;
 
   position: absolute;
-  bottom: 0;
+  bottom: -200px;
 
 
 

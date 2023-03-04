@@ -1,7 +1,8 @@
 import Image from "next/image"
+import Link from "next/link"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
-import { Content } from "@/styles/home"
+import { Content, Table } from "@/styles/home"
 
 export default function Home() {
 	return (
@@ -22,20 +23,64 @@ export default function Home() {
 							<input type="radio" name="tabs" id="tab2" />
 							<label for="tab2" role="tab" aria-selected="false" aria-controls="panel2" tabindex="0">Sua turma</label>
 							<div id="tab-content2" class="tab-content" role="tabpanel" aria-labelledby="specification" aria-hidden="true">
-							<table>
-								<thead>
-									<tr>
-										<th>Sigla</th>
-										<th>Descrição da matéria</th>
-										<th></th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										
-									</tr>
-								</tbody>
-								</table>
+								<Table>
+									<thead>
+										<tr>
+											<th>Código</th>
+											<th>Nome da matéria</th>
+											<th>Acesso</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>InfoMat</td>
+											<td>Matemática</td>
+											<td><Link href="">Acessar</Link></td>
+										</tr>
+
+										<tr>
+											<td>InfoMat</td>
+											<td>Matemática</td>
+											<td><Link href="">Acessar</Link></td>
+										</tr>
+
+										<tr>
+											<td>InfoMat</td>
+											<td>Matemática</td>
+											<td><Link href="">Acessar</Link></td>
+										</tr>
+
+										<tr>
+											<td>InfoMat</td>
+											<td>Matemática</td>
+											<td><Link href="">Acessar</Link></td>
+										</tr>
+
+										<tr>
+											<td>InfoMat</td>
+											<td>Matemática</td>
+											<td><Link href="">Acessar</Link></td>
+										</tr>
+
+										<tr>
+											<td>InfoMat</td>
+											<td>Matemática</td>
+											<td><Link href="">Acessar</Link></td>
+										</tr>
+
+										<tr>
+											<td>InfoMat</td>
+											<td>Matemática</td>
+											<td><Link href="">Acessar</Link></td>
+										</tr>
+
+										<tr>
+											<td>InfoMat</td>
+											<td>Matemática</td>
+											<td><Link href="">Acessar</Link></td>
+										</tr>
+									</tbody>
+								</Table>
 							</div>
 						</li>
 				</ul>

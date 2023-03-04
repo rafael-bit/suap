@@ -44,8 +44,10 @@ export const Content = styled.div`
 		position: absolute;
     overflow: hidden;
     width: 100%;
-    padding: 25px;
+    padding: 12px;
     background: var(--background);
+    margin-bottom: 5rem;
+    border-radius: 0px 24px 24px 24px;
   }
   //The Magic
   [id^="tab"]:checked + label { 
@@ -64,5 +66,50 @@ export const Content = styled.div`
 	#tab-content2, #tab-content1{
 		width: 95vw;
 	}
-} 
+}
+`;
+
+export const Table = styled.table`
+  border-spacing: 0 0.5rem;
+
+  padding: .5rem;
+  width: 100%;
+
+  a{
+    background: var(--green);
+    color: var(--white);
+
+    padding: .6rem;
+    border-radius: 30px;
+
+    text-decoration: none;
+  }
+
+  thead, tbody{
+    background: var(--white);
+  }
+  
+  thead tr th{
+    padding: 1rem;
+  }
+
+  thead tr th:nth-child(1){
+    border-radius: 15px 0px 0px 15px;
+  }
+
+  thead tr th:nth-child(3){
+    border-radius: 0px 15px 15px 0px;
+  }
+
+  tbody tr td{
+    padding: 1rem;
+  }
+
+  tbody tr td:nth-child(1){
+    border-radius: 15px 0px 0px 15px;
+  }
+
+  tbody tr td:nth-child(3){
+    border-radius: 0px 15px 15px 0px;
+  }
 `;
