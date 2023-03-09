@@ -12,7 +12,7 @@ export default function Login() {
 							<label>Matricula :</label><br />
 							<input type="text" /><br />
 							<label>Senha :</label><br />
-							<input type="text" />
+							<input type="password" />
 
 							<div className="submit">
 								<input type="submit" value="Entrar"/>
