@@ -84,6 +84,7 @@ export default function Home() {
 							</div>
 						</li>
 				</ul>
+				<p>"Estudar é um privilégio e só o seu esforço pessoal te levará a conhecer pessoas e mundos que os acomodados jamais conhecerão! Deus ajuda quem senta e estuda. O conhecimento é a única coisa que ninguém pode tirar de você. Comece a estudar hoje para vencer amanhã."</p>
 			</Content>
 			<Footer />
 		</>

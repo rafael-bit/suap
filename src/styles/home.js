@@ -11,11 +11,15 @@ export const Content = styled.div`
     border-radius: 50%;
   }
 
+  p{
+    margin: 600px 30px 50px 50px;
+  }
+
 .tabs {
 	display: flex;
   width: 92vw;
   list-style: none;
-	margin: 0rem 1rem;
+	margin: 0rem 0.6rem;
 
   input[type="radio"] {
     position: absolute;
@@ -60,7 +64,7 @@ export const Content = styled.div`
   }
 
 	#tab-content2{
-		left: 16px;
+		left: 10px;
 	}
 
 	#tab-content2, #tab-content1{

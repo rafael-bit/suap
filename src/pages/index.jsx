@@ -1,4 +1,4 @@
-import { Container, Box, Card } from "@/styles/Login";
+import { Container, Box, Card } from "@/styles/login";
 import Link from "next/link";
 
 export default function Login() {
