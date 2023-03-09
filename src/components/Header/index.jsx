@@ -8,7 +8,7 @@ export default function Header() {
 			<h1><Link href="#"><span>SUAP</span></Link></h1>
 			<nav>
 				<ul>
-					<li><Link href="/mensage">Notificações</Link></li>
+					<li><Link href="/Mensage">Notificações</Link></li>
 					<li className="dropdown">
 						<Image src="/profile.jpg" width="40" height="40" />
 						<div className="drop">
