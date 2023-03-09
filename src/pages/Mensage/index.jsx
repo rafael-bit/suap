@@ -14,6 +14,7 @@ export default function Mensage() {
 					<input type="text" />
 					<p>Mensagens não lidas</p>
 					<p>Mensagens lidas</p>
+					
 				</div>
 				<div className="table">
 					<Table>
