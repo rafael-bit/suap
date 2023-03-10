@@ -11,7 +11,7 @@ export const Content = styled.div`
     border-radius: 50%;
   }
 
-  p{
+  .text{
     margin: 600px 30px 50px 50px;
   }
 
